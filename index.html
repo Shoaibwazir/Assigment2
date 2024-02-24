@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+       body{
+        background-color: chocolate;
+       }
+       input{
+        margin: 15px;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: yellow;
+        font-family: sans-serif;
+        font-style: italic;
+        font-display: block ;
+        font-weight: bold;
+       }
+       input, textarea, select {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #f70909;
+            border-radius: 5px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        div{
+            margin-right: 50px;
+            background-color: rgba(255, 248, 220, 0.541);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+       button {
+            background-color: green;
+            padding: 10px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <center>
+        <h2 style="text-align: end;">Student registeration form </h2>
+        <form action="#">
+        <label for="#">First Name: </label>
+            <input type="#" name="fname" id="fname"placeholder="Enter your first name">
+            <br>
+    <label for="lname">Last Name :</label>
+    <input type="#" name="lname" id="lname"placeholder="Enter your last name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="#"name="email"placeholder="shoaibwazir@gmail.com">
+    <br>
+    <label for="mob">Mobile:</label>
+    <input type="#"name="Mob"placeholder="only 10 digit are allowed">
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio"name="gender"id="male"value="male"><label for="#">Male</label>
+    <input type="radio"name="gender"id="female"value="female"><label for="#">Female</label>
+    <br>
+    <label for="dob">Date of birth:</label>
+    <input type="date"name="birthday"id="birthday">
+    <br>
+    <br>
+    <label for="#">Address:</label>
+    <textarea name="address" id="add" cols="50" rows="5"></textarea>
+<br>
+<br>
+<label for="city">City:</label>
+<input type="#"name="city">
+<br>
+<br>
+<label for="#">Area PIN:</label>
+<input type="text">
+<br>
+<br>
+<label for="#">State:</label>
+<input type="text">
+<br>
+<br>
+<label for="#">Qualification:</label>
+<select>
+    <option value="#">select Qualification</option>
+    <option value="quali">BS</option>
+    <option value="quali">MS</option>
+    <option value="quali">PHD</option>
+</select>
+<br>
+<br>
+<label for="#">specialization: </label>
+ <br>
+<input type="checkbox"><label for="#">computer science</label>
+<br>                
+    <input type="checkbox"><label for="#">Information Technology</label>
+<br>
+<input type="checkbox"><label for="#">computer Architecture</label>
+<br>               
+<input type="checkbox"><label for="#">Tele Communication</label>
+<br>
+<br>
+<label for="#">Password:</label>
+<input type="#" name="pass" id="pass" placeholder="password">
+<br>
+<br>
+<button style="background-color: rgb(0, 236, 158);">Registered</button>
+
+
+</form>
+    </center>
+    </div>
+</body>
+</html>
